@@ -57,5 +57,3 @@ document.addEventListener("DOMContentLoaded", () => {
     modal.classList.remove("active");
   });
 });
-
-

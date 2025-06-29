@@ -9,7 +9,7 @@ hero:
     - theme: brand
       text: View Documentation
       link: /edulab/overview.md
-      
+
 features:
   - title: Multiple Theme Support
     details: Multiple Theme Support allows users to customize the look and feel of the application by choosing from a variety of themes.This feature provides flexibility for users to select a theme that best suits their preferences or branding requirements.
@@ -21,3 +21,5 @@ features:
   - title: Role Base Permission
     details: A Role-Based Permission (RBP) system allows you to control access to various parts of an application based on predefined roles and their associated permissions. This system ensures security, streamlines user management, and provides flexibility in assigning access levels to users based on their roles..
 ---
+<h2>WordPress</h2>
+

@@ -8,7 +8,7 @@ Transova is a modern and professional WordPress theme designed for cargo, freigh
 
 - 10 unique Home
 
-- 15 Inner Page
+- 15+ Inner Page
 
 - Easily customizable design components
 
@@ -20,7 +20,7 @@ Transova is a modern and professional WordPress theme designed for cargo, freigh
 
 - Custom Portfolio post
 
-- Cystom Team Post
+- Custom Team Post
 
 - Multiple Demo & Theme Management
 

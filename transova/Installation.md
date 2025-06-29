@@ -13,7 +13,7 @@ Before installing Ensure that your server meets the following requirements:
 - memory_limit = 256M
 - max_execution_time = 600
 - upload_max_filesize = 32M
--  max_input_time = 300
+- max_input_time = 300
 
 
 ## WordPress Installation

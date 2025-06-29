@@ -12,7 +12,7 @@ export default defineConfig({
       {
         text: "Documentation",
         items: [{ text: "Edulab LMS", link: "/edulab/overview" },
-          { text: "Transova Logistics & Transportation", link: "/transova/overview" }
+        { text: "Transova Logistics & Transportation", link: "/transova/overview" }
         ],
       },
     ],
@@ -385,335 +385,76 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "Installation", link: "/transova/installation" },
-            { text: "Update", link: "/transova/update" },
           ],
         },
-
         {
-          text: "Module Management",
-          collapsed: false,
-          items: [
-            { text: "Install Module & Update", link: "/transova/module/installation" },
-            { text: "Enable Module", link: "/transova/module/enable" },
-            { text: "Disable Module", link: "/transova/module/disable" },
-            { text: "Uninstall Module", link: "/transova/module/uninstall" },
-          ],
-        },
-
-        {
-          text: "Usage",
+          text: "Theme",
           collapsed: false,
           items: [
             {
-              text: "Admin Dashboard",
+              text: "Theme Install & Update",
               collapsed: true,
               items: [
-                { text: "Language", link: "/transova/admin/language" },
-                {
-                  text: "Localization",
-                  collapsed: true,
-                  items: [
-                    { text: "Country", link: "/transova/admin/country" },
-                    { text: "State", link: "/transova/admin/state" },
-                    { text: "City", link: "/transova/admin/city" },
-                    { text: "Time Zone", link: "/transova/admin/time-zone" },
-                  ],
-                },
-                {
-                  text: "Icon & Provider ",
-                  link: "/transova/admin/icon-provider",
-                },
-                { text: "Category", link: "/transova/admin/category" },
-                {
-                  text: "Meeting Provider",
-                  link: "/transova/admin/meeting-provider",
-                },
-                {
-                  text: "Course Manage",
-                  collapsed: true,
-                  items: [
-                    { text: "Subject", link: "/transova/admin/subject" },
-                    { text: "Level", link: "/transova/admin/level" },
-                    {
-                      text: "Create Course",
-                      link: "/transova/admin/create-course",
-                    },
-                    {
-                      text: "Create Curriculum",
-                      link: "/transova/admin/curriculum-course",
-                    },
-                    { text: "Topic", link: "/transova/admin/topic" },
-                    { text: "Create Quiz", link: "/transova/admin/quiz-create" },
-                    {
-                      text: "Create Course Bundle",
-                      link: "/transova/admin/create-course-bundle",
-                    },
-                  ],
-                },
-
-                {
-                  text: "Student Manage",
-                  link: "/transova/admin/student-manage",
-                },
-                {
-                  text: "Organization Manage",
-                  link: "/transova/admin/organization-manage",
-                },
-                {
-                  text: "Instructor Manage",
-                  link: "/transova/admin/instructor-manage",
-                },
-                {
-                  text: "Business Marketing",
-                  collapsed: false,
-                  items: [
-                    {
-                      text: "Coupon Manage",
-                      link: "/transova/admin/coupon-manage",
-                    },
-                  ],
-                },
-                {
-                  text: "Testimonial Manage",
-                  link: "/transova/admin/testimonial-manage",
-                },
-                {
-                  text: "Blog Manage",
-                  collapsed: false,
-                  items: [
-                    {
-                      text: "Blog Category",
-                      link: "/transova/admin/blog-category",
-                    },
-                    { text: "Blog", link: "/transova/admin/blog-manage" },
-                  ],
-                },
-
-                { text: "Notices board", link: "/transova/admin/notice-board" },
-                {
-                  text: "Backend Settings",
-                  link: "/transova/admin/backend-settings",
-                },
-
-                {
-                  text: "Theme Settings",
-                  collapsed: false,
-                  items: [
-                    {
-                      text: "Theme Activation",
-                      link: "/transova/admin/theme/theme-settings",
-                    },
-                    { text: "Setting", link: "/transova/admin/theme/setting" },
-                  ],
-                },
-
-                {
-                  text: "Staff Manage",
-                  collapsed: false,
-                  items: [
-                    {
-                      text: "Permissions",
-                      link: "/transova/admin/staff-permissions",
-                    },
-                    { text: "Roles", link: "/transova/admin/staff-role" },
-                    { text: "Users", link: "/transova/admin/staff-users" },
-                  ],
-                },
-                {
-                  text: "Payment Method",
-                  link: "/transova/admin/payment-method",
-                },
-                {
-                  text: "Certificate Manage",
-                  link: "/transova/admin/certificate-manage",
-                },
-                { text: "Faq Manage", link: "/transova/admin/faq-manage" },
-              ],
+                { text: "Install Theme By WordPress", link: "/transova/theme/wp-theme-installation" },
+                { text: "Install Theme Via Manual", link: "/transova/theme/manual-theme-installation" },
+                { text: "Install Theme Via FTP", link: "/transova/theme/ftp-theme-installation" },
+                { text: "Theme Update", link: "/transova/theme/update-theme" }
+              ]
             },
-
             {
-              text: "Instructor Dashboard",
+              text: "Theme Activation",
               collapsed: true,
               items: [
-                {
-                  text: "Course Manage",
-                  collapsed: true,
-                  items: [
-                    { text: "Course", link: "/transova/instructor/course" },
-                    {
-                      text: "Create Curriculum",
-                      link: "/transova/instructor/create-curriculum",
-                    },
-                    {
-                      text: "Topic",
-                      link: "/transova/instructor/topic",
-                    },
-                    {
-                      text: "Create Quiz",
-                      link: "/transova/instructor/quiz-create",
-                    },
-                    {
-                      text: "Create Course Bundle",
-                      link: "/transova/instructor/bundle-course",
-                    },
-                  ],
-                },
-                {
-                  text: "Student Manage",
-                  link: "/transova/instructor/student-manage",
-                },
-                {
-                  text: "Quizes",
-                  link: "/transova/instructor/quizes",
-                },
-                {
-                  text: "Assignments",
-                  link: "/transova/instructor/assignment",
-                },
-                {
-                  text: "Noties Board",
-                  link: "/transova/instructor/notiesboard",
-                },
-                {
-                  text: "Notifications",
-                  link: "/transova/instructor/notifications",
-                },
-                {
-                  text: "Support Ticket",
-                  collapsed: true,
-                  items: [
-                    {
-                      text: "Support Ticket",
-                      link: "/transova/instructor/support-ticket",
-                    },
-
-                    {
-                      text: "Student Support",
-                      link: "/transova/instructor/student-support",
-                    },
-                  ],
-                },
-              ],
-            },
-
-            {
-              text: "Organization Dashboard",
-              collapsed: true,
-              items: [
-                {
-                  text: "Instructor Manage",
-                  link: "/transova/organization/instructor-manage.md",
-                },
-                {
-                  text: "Course Manage",
-                  collapsed: true,
-                  items: [
-                    { text: "Course", link: "/transova/organization/course" },
-                    {
-                      text: "Create Curriculum",
-                      link: "/transova/organization/create-curriculum",
-                    },
-                    {
-                      text: "Topic",
-                      link: "/transova/organization/topic",
-                    },
-                    {
-                      text: "Create Quiz",
-                      link: "/transova/organization/create-quiz",
-                    },
-                    {
-                      text: "Create Course Bundle",
-                      link: "/transova/organization/bundle-course",
-                    },
-                  ],
-                },
-                {
-                  text: "Student Manage",
-                  link: "/transova/organization/student-manage",
-                },
-
-                {
-                  text: "Noties Board",
-                  link: "/transova/organization/notiesboard",
-                },
-                {
-                  text: "Notifications",
-                  link: "/transova/organization/notifications",
-                },
-                {
-                  text: "Support Ticket",
-                  collapsed: true,
-                  items: [
-                    {
-                      text: "Support Ticket",
-                      link: "/transova/organization/support-ticket",
-                    },
-                  ],
-                },
-              ],
-            },
-
-            {
-              text: "Student Dashboard",
-              collapsed: true,
-              items: [
-                {
-                  text: "Course Manage",
-                  link: "/transova/student/course-manage",
-                },
-
-                {
-                  text: "Notifications",
-                  link: "/transova/student/notifications",
-                },
-                {
-                  text: "Quizzes",
-                  link: "/transova/student/quizzes",
-                },
-                {
-                  text: "Support Ticket",
-                  collapsed: true,
-                  items: [
-                    {
-                      text: "Support Ticket",
-                      link: "/transova/student/support-ticket",
-                    },
-
-                    {
-                      text: "Course Support",
-                      link: "/transova/student/course-support",
-                    },
-                  ],
-                },
-              ],
-            },
-          ],
+                { text: "Theme Activation", link: "/transova/theme/theme-activation" }
+              ]
+            }
+          ]
         },
-
         {
-          text: "Modules",
-          collapsed: false,
+          text: "Plugin",
+          collapsed: true,
           items: [
-            {
-              text: "Subscription",
-              collapsed: false,
-              items: [
-                { text: "Install Subscription", link: "/transova/module/subscription/install" },
-                { text: "Add New Subscription", link: "/transova/module/subscription/add-subscription" },
-                { text: "Subscription Frontend", link: "/transova/module/subscription/frontend" },
-              ],
-            },
+            { text: "Install Required Plugin", link: "/transova/plugin/rq-plugin-installation" },
+            { text: "Add New Plugin", link: "/transova/plugin/add-plugin" },
+            { text: "Update Plugin", link: "/transova/plugin/update-plugin" },
           ],
         },
 
-        {
-          text: "Advanced",
-          collapsed: false,
-          items: [
-            { text: "Composer", link: "/transova/advanced/composer" },
-            { text: "Cron Jobs", link: "/transova/advanced/cron-jobs" },
-          ],
+         {
+          text: "Import Demo Content",
+          link: "/transova/import-demo-content",
         },
+
+         {
+          text: "Theme Options",
+          link: "/transova/theme-option",
+        },
+
+         {
+          text: "Page Settings",
+          link: "/transova/page-settings",
+        },
+
+         {
+          text: "Menu Settings",
+          link: "/transova/menu-settings",
+        },
+
+         {
+          text: "Elementor",
+          link: "/transova/elementor",
+        },
+
+         {
+          text: "Source & Credits",
+          link: "/transova/source-credits",
+        },
+
+         {
+          text: "Support",
+          link: "/transova/support",
+        },
+
       ],
     },
   },

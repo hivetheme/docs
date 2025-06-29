@@ -91,3 +91,21 @@ p:hover img {
   -ms-transition: all ease 0.4;
   -o-transition: all ease 0.4;
 } */
+
+.cdx-video{
+  height: 500px;
+}
+@media screen and (min-width: 920px) {
+.cdx-video{
+  width: 100%;
+
+}
+}
+
+@media screen and (max-width: 768px) {
+  .cdx-video{
+  width: 100%;
+  height: 400px;
+  }
+
+}

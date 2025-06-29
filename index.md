@@ -9,7 +9,7 @@ hero:
     - theme: brand
       text: View Documentation
       link: /edulab/overview.md
-
+      
 features:
   - title: Multiple Theme Support
     details: Multiple Theme Support allows users to customize the look and feel of the application by choosing from a variety of themes.This feature provides flexibility for users to select a theme that best suits their preferences or branding requirements.

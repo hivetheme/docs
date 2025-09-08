@@ -11,8 +11,9 @@ export default defineConfig({
     nav: [
       {
         text: "Documentation",
-        items: [{ text: "Edulab LMS", link: "/edulab/overview" },
-        { text: "Transova Logistics & Transportation", link: "/transova/overview" }
+        items: [
+          { text: "Edulab LMS", link: "/edulab/overview" },
+          { text: "Transova", link: "/transova/overview" },
         ],
       },
     ],
@@ -383,9 +384,7 @@ export default defineConfig({
         {
           text: "Getting Started",
           collapsed: false,
-          items: [
-            { text: "Installation", link: "/transova/installation" },
-          ],
+          items: [{ text: "Installation", link: "/transova/installation" }],
         },
         {
           text: "Theme",
@@ -398,17 +397,15 @@ export default defineConfig({
                 { text: "Install Theme By WordPress", link: "/transova/theme/wp-theme-installation" },
                 { text: "Install Theme Via Manual", link: "/transova/theme/manual-theme-installation" },
                 { text: "Install Theme Via FTP", link: "/transova/theme/ftp-theme-installation" },
-                { text: "Theme Update", link: "/transova/theme/update-theme" }
-              ]
+                { text: "Theme Update", link: "/transova/theme/update-theme" },
+              ],
             },
             {
               text: "Theme Activation",
               collapsed: true,
-              items: [
-                { text: "Theme Activation", link: "/transova/theme/theme-activation" }
-              ]
-            }
-          ]
+              items: [{ text: "Theme Activation", link: "/transova/theme/theme-activation" }],
+            },
+          ],
         },
         {
           text: "Plugin",
@@ -420,41 +417,40 @@ export default defineConfig({
           ],
         },
 
-         {
+        {
           text: "Import Demo Content",
           link: "/transova/import-demo-content",
         },
 
-         {
+        {
           text: "Theme Options",
           link: "/transova/theme-option",
         },
 
-         {
+        {
           text: "Page Settings",
           link: "/transova/page-settings",
         },
 
-         {
+        {
           text: "Menu Settings",
           link: "/transova/menu-settings",
         },
 
-         {
+        {
           text: "Elementor",
           link: "/transova/elementor",
         },
 
-         {
+        {
           text: "Source & Credits",
           link: "/transova/source-credits",
         },
 
-         {
+        {
           text: "Support",
           link: "/transova/support",
         },
-
       ],
     },
   },

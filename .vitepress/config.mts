@@ -5,7 +5,7 @@ export default defineConfig({
     ["link", { rel: "stylesheet", href: "/assets/css/custom.css" }],
     ["script", { src: "/assets/js/custom.js" }],
   ],
-  title: "CodexShaper",
+  title: "HiveTheme",
   base: "/",
   themeConfig: {
     nav: [
@@ -20,7 +20,7 @@ export default defineConfig({
     search: {
       provider: "local",
     },
-    socialLinks: [{ icon: "github", link: "https://github.com/CodexShaper" }],
+    socialLinks: [{ icon: "github", link: "https://github.com/hivetheme" }],
     sidebar: {
       "/edulab/": [
         {
@@ -411,8 +411,8 @@ export default defineConfig({
           text: "Plugin",
           collapsed: true,
           items: [
-            { text: "Install Required Plugin", link: "/transova/plugin/rq-plugin-installation" },
-            { text: "Add New Plugin", link: "/transova/plugin/add-plugin" },
+            { text: "Install Required Plugin", link: "/transova/plugin/required-plugin-installation" },
+            { text: "Add New Plugin", link: "/transova/plugin/add-new-plugin" },
             { text: "Update Plugin", link: "/transova/plugin/update-plugin" },
           ],
         },

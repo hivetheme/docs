@@ -24,4 +24,4 @@ Run `php artisan migrate` to create necessary database table and fields
 
 Run `php artisan optimize` to clear existing cache and optimize cache
 
-Done. If you need further assistance contact us through codexshaper@gmail.com
+Done. If you need further assistance contact us through hivetheme@gmail.com

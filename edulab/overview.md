@@ -67,9 +67,9 @@ PHP platform based on Laravel Framework 11.x
 
 Created: 16 December 2024
 
-By: <a href="https://codexshaper.com" title="CodexShaper">CodexShaper</a>
+By: <a href="https://hivetheme.com" title="HiveTheme">HiveTheme</a>
 
-Email: codexshaper@gmail.com
+Email: hivetheme@gmail.com
 
 ---
 

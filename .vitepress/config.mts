@@ -8,12 +8,22 @@ export default defineConfig({
   title: "HiveTheme",
   base: "/",
   themeConfig: {
+    lastUpdated: {
+      text: "Updated at",
+      formatOptions: {
+        dateStyle: "medium",
+      },
+    },
+    editLink: {
+      pattern: "https://github.com/hivetheme/docs/tree/main/:path",
+      text: "Edit on GitHub",
+    },
     nav: [
       {
         text: "Documentation",
         items: [
-          { text: "Edulab LMS", link: "/edulab/overview" },
-          { text: "Transova", link: "/transova/overview" },
+          { text: "Edulab LMS", link: "/edulab/overview", activeMatch: "/edulab/" },
+          { text: "Transova", link: "/transova/overview", activeMatch: "/transova/" },
         ],
       },
     ],
@@ -409,7 +419,7 @@ export default defineConfig({
         },
         {
           text: "Plugin",
-          collapsed: true,
+          collapsed: false,
           items: [
             { text: "Install Required Plugin", link: "/transova/plugin/required-plugin-installation" },
             { text: "Add New Plugin", link: "/transova/plugin/add-new-plugin" },

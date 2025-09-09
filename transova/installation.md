@@ -115,10 +115,8 @@ If you experience conflicts with other plugins, try deactivating them temporaril
 
 If you need further assistance with theme installation or configuration:
 
-- Visit our documentation at [theme-documentation-url]
-- Submit a support ticket at [support-url]
-- Check our knowledge base at [kb-url]
+- Visit our [Documentation](https://docs.hivetheme.com/transova/overview.html)
+- Submit a support ticket at [hivetheme@gmail.com](mailto:hivetheme@gmail.com)
+- Check our [knowledge base](https://docs.hivetheme.com)
 
 ---
-
-*Last updated: 2025-06-29 | Current version: 2.4.1*

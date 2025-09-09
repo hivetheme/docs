@@ -134,3 +134,16 @@
 :root {
   --vp-font-family-base: "DM Sans", sans-serif;
 }
+
+.kb-search #local-search,
+.kb-search #algolia-search {
+  width: 100%;
+}
+
+.kb-search .DocSearch {
+  width: 100%;
+}
+
+.VPNavBarBrand {
+  display: none !important;
+}

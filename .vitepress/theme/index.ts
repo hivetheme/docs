@@ -2,6 +2,8 @@
 import { h } from "vue";
 import type { Theme } from "vitepress";
 import DefaultTheme from "vitepress/theme";
+import DocSearch from "vitepress/dist/client/theme-default/components/VPNavBarSearch.vue";
+
 import "./style.css";
 
 export default {
@@ -12,6 +14,6 @@ export default {
     });
   },
   enhanceApp({ app, router, siteData }) {
-    // ...
+    app.component("DocSearch", DocSearch);
   },
 } satisfies Theme;

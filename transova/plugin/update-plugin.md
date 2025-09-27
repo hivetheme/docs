@@ -17,6 +17,6 @@ If you need a Transova core plugin update you follow the next steps
 <p><img src="/assets/transova/images/update-plugins/update_plugin_4.png"></p>
 <hr>
 <h4>Step 5 :</h4>
-<p><img src="/assets/transova/images/update-plugins/update_plugin_5.png"></p>
+<p><img src="/assets/transova/images/install-plugins/core-3.png"></p>
 <h4>Step 5 :</h4>
 <p><img src="/assets/transova/images/install-plugins/core-4.png"></p>

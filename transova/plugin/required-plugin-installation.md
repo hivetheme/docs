@@ -13,10 +13,6 @@ Select all required plugin, From the top dropdown menu select Install and click 
 <strong># Step 03:</strong>
 After Install all plugins successfully click Return to Required Plugins Installer.
 <p><img src="/assets/transova/images/install-plugins/theme_8.png"></p>
-<br>
-<strong># Step 04:</strong>
-Select all required plugin, From the top dropdown menu select Activate and click Apply.
-<p><img src="/assets/transova/images/install-plugins/theme_9.png"></p>
 
 ## Video Tutorial
 

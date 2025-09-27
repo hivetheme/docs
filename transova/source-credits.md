@@ -1,16 +1,12 @@
 ## Sources and Credits
-Fonts Used int the Theme are google fonts, you can find theme on Google Fonts API
-<br>
-<strong>Font Used:</strong>
-<br>
-<a href="https://fonts.google.com/specimen/Roboto" target="_blank">'Roboto',
-sans-serif;</a>
-<br>
-<a href="https://fonts.google.com/specimen/Montserrat" target="_blank">'Montserrat',
-sans-serif;</a>
-<br>
-<a href="http://www.getbootstrap.com/" target="_blank" title="Bootstrap">Bootstrap</a>
 <br>
 <a href="https://fonts.google.com/" target="_blank" title="Google Fonts">Google
 Fonts</a>
-
+<br>
+<a href="https://swiperjs.com/" target="_blank" title="Google Fonts">SwiperJs</a>
+<br>
+<a href="https://fontawesome.com/" target="_blank" title="Google Fonts">Fontawesome</a>
+<br>
+<a href="https://www.freepik.com/" target="_blank" title="Google Fonts">Freepik</a>
+<br>
+<a href="https://codecanyon.net/item/codestar-framework-a-simple-and-lightweight-wordpress-option-framework-for-themes-and-plugins/23079100" target="_blank" title="Google Fonts">CodeStar Framework</a>

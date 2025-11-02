@@ -3,6 +3,8 @@
 <a href="https://fonts.google.com/" target="_blank" title="Google Fonts">Google
 Fonts</a>
 <br>
+<a href="https://gsap.com/pricing/" target="_blank" title="Google Fonts">GSAP (Free)</a>
+<br>
 <a href="https://swiperjs.com/" target="_blank" title="Google Fonts">SwiperJs</a>
 <br>
 <a href="https://fontawesome.com/" target="_blank" title="Google Fonts">Fontawesome</a>

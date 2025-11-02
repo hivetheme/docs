@@ -12,7 +12,7 @@ Domio is a sleek and professional WordPress theme built for construction compani
 
 ---
 
-- 10 unique Home
+- 3 unique Home and 7+ upcoming
 
 - 10+ Inner Page
 

@@ -4,7 +4,7 @@ projectTitle: Domio Docs
 ---
 
 
-## Domio – Construction & Interior Design Excellence WordPress Theme
+## Domio – Modern Construction & Interior Design WordPress Theme
 
 ---
 
@@ -12,23 +12,25 @@ Domio is a sleek and professional WordPress theme built for construction compani
 
 ---
 
-- 3 unique Home and 7+ upcoming
+- 3 unique Homepages + 7 upcoming
 
-- 10+ Inner Page
+- 10+ Inner Pages
 
-- Clean, modern, and responsive design
+- Clean, modern, responsive design
 
-- Easy drag-and-drop page builder compatibility
+- GSAP animations
 
-- Multiple homepage and portfolio layouts
+- Drag-and-drop builder support
 
-- SEO optimized and speed-focused
+- Advanced Option Builder
+
+- Multiple home page and layouts
+
+- SEO & speed optimized
 
 - One-click demo import
 
-- Dedicated support and detailed documentation
-
-- Theme Options Management
+- Dedicated support + documentation
 
 ## Why choose us
 

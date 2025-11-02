@@ -24,6 +24,7 @@ export default defineConfig({
         items: [
           { text: "Edulab LMS", link: "/edulab/overview", activeMatch: "/edulab/" },
           { text: "Transova", link: "/transova/overview", activeMatch: "/transova/" },
+          { text: "Domio", link: "/domio/overview", activeMatch: "/domio/" },
         ],
       },
     ],
@@ -460,6 +461,89 @@ export default defineConfig({
         {
           text: "Support",
           link: "/transova/support",
+        },
+      ],
+      "/domio/": [
+        {
+          text: "Overview",
+          link: "/domio/overview",
+        },
+
+        {
+          text: "Release",
+          collapsed: false,
+          items: [{ text: "Release Notes", link: "/domio/releases" }],
+        },
+
+        {
+          text: "Getting Started",
+          collapsed: false,
+          items: [{ text: "Installation", link: "/domio/installation" }],
+        },
+        {
+          text: "Theme",
+          collapsed: false,
+          items: [
+            {
+              text: "Theme Install & Update",
+              collapsed: true,
+              items: [
+                { text: "Install Theme By WordPress", link: "/domio/theme/wp-theme-installation" },
+                { text: "Install Theme Via Manual", link: "/domio/theme/manual-theme-installation" },
+                { text: "Install Theme Via FTP", link: "/domio/theme/ftp-theme-installation" },
+                { text: "Theme Update", link: "/domio/theme/update-theme" },
+              ],
+            },
+            // {
+            //   text: "Theme Activation",
+            //   collapsed: true,
+            //   items: [{ text: "Theme Activation", link: "/domio/theme/theme-activation" }],
+            // },
+          ],
+        },
+        {
+          text: "Plugin",
+          collapsed: false,
+          items: [
+            { text: "Install Required Plugin", link: "/domio/plugin/required-plugin-installation" },
+            { text: "Add New Plugin", link: "/domio/plugin/add-new-plugin" },
+            { text: "Update Plugin", link: "/domio/plugin/update-plugin" },
+          ],
+        },
+
+        {
+          text: "Import Demo Content",
+          link: "/domio/import-demo-content",
+        },
+
+        {
+          text: "Theme Options",
+          link: "/domio/theme-option",
+        },
+
+        {
+          text: "Page Settings",
+          link: "/domio/page-settings",
+        },
+
+        {
+          text: "Menu Settings",
+          link: "/domio/menu-settings",
+        },
+
+        {
+          text: "Elementor",
+          link: "/domio/elementor",
+        },
+
+        {
+          text: "Source & Credits",
+          link: "/domio/source-credits",
+        },
+
+        {
+          text: "Support",
+          link: "/domio/support",
         },
       ],
     },

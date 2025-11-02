@@ -28,6 +28,11 @@ const data =
     ],
   "WordPress": [
     {
+      title: "Domio Theme",
+      description: "Complete guide for the Domio WordPress theme.",
+      link: "/domio/overview"
+    },
+    {
       title: "Transova Theme",
       description: "Complete guide for the Transova WordPress theme.",
       link: "/transova/overview"

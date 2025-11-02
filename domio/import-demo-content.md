@@ -41,7 +41,7 @@ With the demo content imported, your website will look just like the live demo â
 
 ## Video Tutorial
 
- <div class="sec-content cdx-video">
+<div class="sec-content cdx-video">
   <iframe width="100%" height="500"
       src="https://www.youtube.com/embed/hHwoSwCy-lg?si=3Z_obbhXYxr_mGNM"
       title="YouTube video player" frameborder="0"

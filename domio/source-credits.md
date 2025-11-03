@@ -8,6 +8,7 @@ Fonts</a>
 <a href="https://www.cdnfonts.com/beatrice-display-trial.font" target="_blank" title="Beatrice Trial">Beatrice Trial</a>
 <br>
 <a href="https://www.cdnfonts.com/bdo-grotesk.font" target="_blank" title="BDO Grotesk">BDO Grotesk</a>
+<br>
 <a href="https://gsap.com/pricing/" target="_blank" title="GSAP Free for everyone">GSAP (Free)</a>
 <br>
 <a href="https://swiperjs.com/" target="_blank" title="Swiper JS">SwiperJs</a>
